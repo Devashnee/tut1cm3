@@ -4,7 +4,7 @@ int main()
 
 {
 	int f ;
-	f = rand() %50 + 1;
+	f = rand() % 50 + 1;
 	printf("the random number generated was  %d\n", f);
 
 	if( f % 3 == 0) 
